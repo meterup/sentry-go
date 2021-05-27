@@ -55,8 +55,8 @@ jobs:
     timeout-minutes: 10
     strategy:
       matrix:
-        go: ["1.16", "1.15", "1.14"]
-        os: [ubuntu, windows, macos]
+        go: ["1.16"]
+        os: [ubuntu]
       fail-fast: false
   test-gopath:
     name: GOPATH Mode
